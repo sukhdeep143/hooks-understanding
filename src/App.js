@@ -13,9 +13,9 @@ function App() {
     > Make it Blue</button>
     
 
-    <div>
+    <div className=''>
       <h1>You have clicked on the button {count} number of time</h1>
-      <button onClick={()=>{setCount(count+1)}}>Click Me</button>
+      <button onClick={()=>{setCount(prev=>prev+1)}}>Click Me</button>
     </div>
     </div>
   );
